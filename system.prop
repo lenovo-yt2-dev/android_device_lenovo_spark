@@ -1,0 +1,19 @@
+
+##
+# system.prop for Lenovo TAB S8-50F
+##
+
+persist.sys.boot=true
+ro.blankphone_id=1
+
+persist.tel.hot_swap.support=true
+persist.service.ccsync.enable=0
+ro.ril.status.polling.enable=0
+rild.libpath=/system/lib/librapid-ril-core.so
+
+# GPS
+ro.spid.gps.pmm=disabled
+ro.spid.gps.tty=ttyMFD1
+ro.spid.gps.FrqPlan=FRQ_PLAN_26MHZ_2PPM
+ro.spid.gps.RfType=GL_RF_4752_BRCM
+
